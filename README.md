@@ -103,5 +103,6 @@ Set `USE_OPTUNA = True` in `config.py`, then run `python main.py`.
 
 | Model | RMSE | MAE | R² |
 |---|---|---|---|
-| LightGBM v1 | 1,180,664 | 850,249 | 0.8170 |
-| Ensemble v3 | *see OOF log* | — | — |
+| LGBM tuned | 1,190,163 | 860,272 | 0.8141 |
+| XGB tuned | 1,186,363 | 850,231 | 0.8153 |
+| Ensemble | 1,181,298 | 849,264 | 0.8168 |
